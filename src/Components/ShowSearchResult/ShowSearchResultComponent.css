@@ -2,14 +2,16 @@
     position: relative;
     width: 234px;
     height: 344px;
+    margin-bottom: 68px;
+    margin-left: 40px;
 }
 
 .show-search-result-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.58);
-    width: 100%;
+    width: 234px;
     height: 92px;
-    bottom: 0;
+    bottom: -7px;
     text-align: center;
 }
 

@@ -10,15 +10,17 @@ export default class SearchResultsComponent extends Component {
   render() {
     let showSearchResults = this._getShowSearchResults();
     return (
-      <div>
-        {showSearchResults}
+      <div className="search-results-component">
+        <div className="search-results">
+          {showSearchResults}
+        </div>
       </div>
     );
   }
 
   _getShowSearchResults () {
     return this.props.searchResults.map(result => {
-      return <ShowSearchResultComponent show={result} key={result.ids.trakt}/>
+      return <ShowSearchResultComponent show={result.show} key={result.show.ids.trakt}/>
     });
   }
 }

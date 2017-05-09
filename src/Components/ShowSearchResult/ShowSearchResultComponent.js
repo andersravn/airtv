@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import './ShowSearchResultComponent.css';
+import poster from './friends.jpg';
 
 import axios from 'axios';
 
@@ -10,14 +11,14 @@ export default class ShowSearchResultComponent extends Component {
   constructor () {
     super();
     this.state = {
-      posterPath: null
+      posterPath: poster
     }
   }
   render() {
-    this._getPoster();
+    // this._getPoster();
     return (
       <div className="show-search-result-component">
-        <img src={this.state.posterPath} alt={this.props.show.title}/>
+        <img src={this.state.posterPath} width={234} alt={this.props.show.title}/>
         <div className="show-search-result-overlay">
           <span className="show-search-result-title">{this.props.show.title}</span>
           <button className="add-button">Add to collection</button>
