@@ -1,4 +1,4 @@
-.show-search-result-component {
+.show-component {
     position: relative;
     width: 234px;
     height: 344px;
@@ -6,7 +6,7 @@
     margin-left: 40px;
 }
 
-.show-search-result-overlay {
+.show-overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.58);
     width: 234px;
@@ -15,7 +15,7 @@
     text-align: center;
 }
 
-.show-search-result-title {
+.show-title {
     position: relative;
     top: 10px;
     right: 10px;
@@ -30,32 +30,25 @@
 
 }
 
-.add-button {
-    background: transparent;
+.show-meta-container {
     position: absolute;
-    bottom: 10px;
-    left: 50px;
+    bottom: 0;
+    width: 234px;
     padding: 10px;
-    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
     color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
-    cursor: pointer;
+    font-size: 0.9em;
 }
 
-.add-button-disabled {
-    background: transparent;
+.show-rating {
     position: absolute;
     bottom: 10px;
-    left: 50px;
-    padding: 10px;
-    border: 2px solid grey;
-    color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1em;
+    left: 10px;
 }
 
-.add-button:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+.show-air-date {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
 }

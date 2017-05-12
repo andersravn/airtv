@@ -1,3 +1,11 @@
 .collection-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.collection-shows {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }

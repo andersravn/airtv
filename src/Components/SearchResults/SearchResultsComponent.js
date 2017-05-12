@@ -20,7 +20,7 @@ export default class SearchResultsComponent extends Component {
 
   _getShowSearchResults () {
     return this.props.searchResults.map(result => {
-      return <ShowSearchResultComponent show={result.show} key={result.show.ids.trakt}/>
+      return <ShowSearchResultComponent show={result.show} collection={this.props.collection} addShow={this.props.addShow} key={result.show.ids.trakt}/>
     });
   }
 }
