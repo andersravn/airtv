@@ -11,8 +11,11 @@ export default class InfoBarContainer extends Component {
   render() {
     return (
       <div className="info-bar-container">
-        <MetaInfoComponent/>
-        <RatingComponent/>
+        <MetaInfoComponent selectedShow={this.props.selectedShow}/>
+        <RatingComponent
+          selectedShow={this.props.selectedShow}
+          getUserRating={this.props.getUserRating}
+          setUserRating={this.props.setUserRating}/>
       </div>
     );
   }

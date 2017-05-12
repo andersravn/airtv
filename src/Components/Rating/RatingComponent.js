@@ -5,26 +5,25 @@ import React, { Component } from 'react';
 import './RatingComponent.css';
 
 export default class RatingComponent extends Component {
-  constructor() {
-    super();
-    this.state = {
-      score: 50
-    }
-  }
   render() {
+    let showId = this.props.selectedShow.ids.trakt;
     return (
       <div className="rating-component">
         <div className="rating-slider">
-          <input type="range" onChange={this._handleRatingChange.bind(this)}/>
+          <input type="range"
+                 value={this.props.getUserRating(this.props.selectedShow.ids.trakt)}
+                 onChange={this._handleRatingChange.bind(this)}/>
         </div>
         <div className="rating-score">
-          <p>{this.state.score}%</p>
+          <p>{this.props.getUserRating(showId)}%</p>
         </div>
       </div>
     );
   }
 
   _handleRatingChange(e) {
-    this.setState({score: e.target.value});
+    let rating = e.target.value;
+    let showId = this.props.selectedShow.ids.trakt;
+    this.props.setUserRating(showId, rating);
   }
 }

@@ -26,7 +26,7 @@ export default class ShowComponent extends Component {
           </div>
           <div className="show-meta-container">
             <div className="show-rating">
-              Your rating: 95%
+              Your rating: {this.props.rating}%
             </div>
             <div className="show-air-date">
               Airing on <br/>

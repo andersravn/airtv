@@ -8,7 +8,8 @@
   "dependencies": {
     "axios": "^0.16.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-flip-move": "^2.9.8"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -9,7 +9,7 @@ export default class MetaInfoComponent extends Component {
     return (
       <div className="meta-info-component">
         <div className="meta-info-title">
-          Foster's Home for Imaginary Friends
+          {this.props.selectedShow.title}
         </div>
         <div className="meta-info-air-date">
           Airing: Mon May 4th
