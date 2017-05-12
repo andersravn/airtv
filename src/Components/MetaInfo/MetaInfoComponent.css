@@ -1,0 +1,15 @@
+.meta-info-component {
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.meta-info-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.meta-info-air-date {
+}
