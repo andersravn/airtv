@@ -15,7 +15,6 @@ export default class ShowSearchResultComponent extends Component {
     }
   }
   render() {
-    // this._getPoster();
     let button = <button className="add-button" onClick={this._handleClick.bind(this)}>Add to collection</button>;
     if (this.props.collection.has(this.props.show)) {
       button = <button className="add-button-disabled">In my collection</button>
@@ -31,6 +30,10 @@ export default class ShowSearchResultComponent extends Component {
         </div>
       </div>
     );
+  }
+
+  componentDidMount() {
+    this._getPoster();
   }
 
   _getPoster () {

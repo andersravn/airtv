@@ -12,7 +12,9 @@ export default class InfoBarContainer extends Component {
   render() {
     return (
       <div className="info-bar-container">
-        <MetaInfoComponent selectedShow={this.props.selectedShow}/>
+        <MetaInfoComponent
+          selectedShow={this.props.selectedShow}
+          removeShow={this.props.removeShow}/>
         <RatingComponent
           selectedShow={this.props.selectedShow}
           getUserRating={this.props.getUserRating}
