@@ -11,5 +11,13 @@
     margin-bottom: 10px;
 }
 
-.meta-info-air-date {
+@media screen and (max-width: 1028px) {
+    .meta-info-title {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    .meta-info-air-date {
+        font-size: 0.9em;
+    }
 }

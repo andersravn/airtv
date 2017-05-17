@@ -8,3 +8,17 @@
     font-size: 40px;
     text-align: center;
 }
+
+@media screen and (max-width: 928px) {
+    .search-component input {
+        min-width: 400px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 623px) {
+    .search-component input {
+        min-width: 200px;
+        font-size: 14px;
+    }
+}

@@ -11,8 +11,8 @@ class App extends Component {
     super();
     this.state = {
       collection: new Set(),
-      showInfoBar: false,
-      selectedShow: null,
+      showInfoBar: true,
+      selectedShow: {"title":"Foster's Home for Imaginary Friends","year":2004,"ids":{"trakt":1708,"slug":"foster-s-home-for-imaginary-friends","tvdb":79323,"imdb":"tt0419326","tmdb":1720,"tvrage":3587}},
       userRatings: new Map()
     };
   }
@@ -30,7 +30,8 @@ class App extends Component {
           <InfoBarContainer
             selectedShow={this.state.selectedShow}
             getUserRating={this._getUserRating.bind(this)}
-            setUserRating={this._setUserRating.bind(this)}/>
+            setUserRating={this._setUserRating.bind(this)}
+            hideInfoBar={this._hideInfoBar.bind(this)}/>
           : null}
       </div>
     );
@@ -53,6 +54,11 @@ class App extends Component {
   _showInfoBar(show) {
     this.setState({showInfoBar: true});
     this.setState({selectedShow: show});
+  }
+
+  _hideInfoBar() {
+    this.setState({showInfoBar: false});
+    this.setState({selectedShow: null});
   }
 
   _setUserRating(showId, rating) {

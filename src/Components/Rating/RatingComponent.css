@@ -1,6 +1,5 @@
 .rating-component {
     width: 100%;
-    padding: 25px;
     display: flex;
     align-items: center;
 }
@@ -14,6 +13,23 @@
     margin-left: 10px;
     color: #FFFFFF;
     font-size: 1.5em;
+}
+
+@media screen and (max-width: 623px) {
+    .rating-component {
+        margin-bottom: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .rating-slider {
+        width: 70%;
+    }
+
+    .rating-score {
+        margin-left: 0;
+        font-size: 1.2em;
+    }
 }
 
 /* Slider code generated with: http://www.cssportal.com/style-input-range/ */

@@ -2,6 +2,7 @@
  * Created by andersravn on 12/05/2017.
  */
 import React, { Component } from 'react';
+import closeIcon from '../../images/closeIcon.svg';
 import './InfoBarContainer.css';
 
 import MetaInfoComponent from '../../Components/MetaInfo/MetaInfoComponent';
@@ -16,6 +17,9 @@ export default class InfoBarContainer extends Component {
           selectedShow={this.props.selectedShow}
           getUserRating={this.props.getUserRating}
           setUserRating={this.props.setUserRating}/>
+        <div className="hide-button" onClick={this.props.hideInfoBar}>
+          <img src={closeIcon} width={30} height={30} alt="Close"/>
+        </div>
       </div>
     );
   }
