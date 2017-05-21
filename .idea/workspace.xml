@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c9d80b2-984c-4b84-b57d-8b528a484b97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Footer/FooterContainer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Containers/Footer/FooterContainer.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Components/Show/friends.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Components/ShowSearchResult/friends.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/logo.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Logo/Logo.css" afterPath="$PROJECT_DIR$/src/Components/Logo/Logo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Logo/Logo.js" afterPath="$PROJECT_DIR$/src/Components/Logo/Logo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/MetaInfo/MetaInfoComponent.css" afterPath="$PROJECT_DIR$/src/Components/MetaInfo/MetaInfoComponent.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Show/ShowComponent.css" afterPath="$PROJECT_DIR$/src/Components/Show/ShowComponent.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Show/ShowComponent.js" afterPath="$PROJECT_DIR$/src/Components/Show/ShowComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/ShowSearchResult/ShowSearchResultComponent.css" afterPath="$PROJECT_DIR$/src/Components/ShowSearchResult/ShowSearchResultComponent.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/ShowSearchResult/ShowSearchResultComponent.js" afterPath="$PROJECT_DIR$/src/Components/ShowSearchResult/ShowSearchResultComponent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/Collection/CollectionContainer.css" afterPath="$PROJECT_DIR$/src/Containers/Collection/CollectionContainer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/Header/HeaderContainer.css" afterPath="$PROJECT_DIR$/src/Containers/Header/HeaderContainer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/Search/SearchContainer.css" afterPath="$PROJECT_DIR$/src/Containers/Search/SearchContainer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/Search/SearchContainer.js" afterPath="$PROJECT_DIR$/src/Containers/Search/SearchContainer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectionContainer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/Collection/CollectionContainer.css">
+      <file leaf-file-name="SearchContainer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Containers/Search/SearchContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="132">
+              <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FooterContainer.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FooterContainer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/Footer/FooterContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -95,16 +82,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FooterContainer.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/Footer/FooterContainer.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -169,6 +146,8 @@
       <find>trash</find>
       <find>in</find>
       <find>inline-flex</find>
+      <find>c</find>
+      <find>console.log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/Components/Logo/Logo.js" />
         <option value="$PROJECT_DIR$/src/Components/Logo/Logo.css" />
         <option value="$PROJECT_DIR$/src/Components/Search/SearchComponent.css" />
-        <option value="$PROJECT_DIR$/src/Containers/Search/SearchContainer.js" />
         <option value="$PROJECT_DIR$/src/Containers/Search/SearchContainer.css" />
         <option value="$PROJECT_DIR$/src/Components/Show/ShowComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.css" />
@@ -219,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/Components/ShowSearchResult/ShowSearchResultComponent.css" />
         <option value="$PROJECT_DIR$/src/Components/Show/ShowComponent.css" />
         <option value="$PROJECT_DIR$/src/Containers/Footer/FooterContainer.js" />
+        <option value="$PROJECT_DIR$/src/Containers/Search/SearchContainer.js" />
       </list>
     </option>
   </component>
@@ -643,18 +622,17 @@
       <workItem from="1494663617257" duration="5000" />
       <workItem from="1495033280497" duration="13997000" />
       <workItem from="1495094773263" duration="221000" />
-      <workItem from="1495382740869" duration="3723000" />
+      <workItem from="1495382740869" duration="4555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56764000" />
+    <option name="totallyTimeSpent" value="57596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.261563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.261563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -662,7 +640,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26347306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36077845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -684,13 +662,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/Logo/Logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/Collection/CollectionContainer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -944,23 +915,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/Search/SearchContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Show/ShowComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#48#89#0" expanded="true" />
-            <marker date="1495383736000" expanded="true" signature="961:1070" ph="..." />
-            <marker date="1495383736000" expanded="true" signature="1051:1064" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,11 +1026,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/Footer/FooterContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/Search/SearchContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

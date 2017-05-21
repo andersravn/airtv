@@ -32,7 +32,6 @@ export default class SearchContainer extends Component {
   }
 
   _makeSearch (query) {
-    console.log(query);
     let instance = axios.create({
       baseURL: 'https://api.trakt.tv/',
       headers: {
