@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import './SearchContainer.css';
+import spinner from '../../images/spinner.svg';
 
 import axios from 'axios';
 
@@ -13,6 +14,7 @@ export default class SearchContainer extends Component {
   constructor () {
     super();
     this.state = {
+      loading: false,
       searchResults: []
     };
   }
@@ -25,6 +27,7 @@ export default class SearchContainer extends Component {
     return (
       <div className="search-container">
         <SearchComponent handleSearchInput={this._makeSearch.bind(this)} />
+        {(this.state.loading) ? <img src={spinner} className="loading-spinner" alt="Loading..." /> : null}
         {heading}
         <SearchResultsComponent searchResults={this.state.searchResults} collection={this.props.collection} addShow={this.props.addShow} />
       </div>
@@ -32,6 +35,7 @@ export default class SearchContainer extends Component {
   }
 
   _makeSearch (query) {
+    this.setState({loading: true});
     let instance = axios.create({
       baseURL: 'https://api.trakt.tv/',
       headers: {
@@ -44,7 +48,7 @@ export default class SearchContainer extends Component {
         let searchResults = response.data.map((result) => {
           return result.show;
         });
-        this.setState({searchResults: searchResults});
+        this.setState({loading: false, searchResults: searchResults});
       })
       .catch(function (error) {
         console.log(error);
