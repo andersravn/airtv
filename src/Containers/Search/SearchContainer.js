@@ -20,7 +20,7 @@ export default class SearchContainer extends Component {
   render() {
     let heading = null;
     if (this.state.searchResults.length > 0) {
-      heading = <h2>SEARCH RESULTS</h2>;
+      heading = <h2 className="heading-search-results">SEARCH RESULTS</h2>;
     }
     return (
       <div className="search-container">

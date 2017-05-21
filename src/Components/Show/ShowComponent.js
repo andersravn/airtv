@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import './ShowComponent.css';
-import poster from './friends.jpg';
+import poster from '../../images/poster.png';
 
 import axios from 'axios';
 

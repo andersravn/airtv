@@ -5,6 +5,7 @@ import HeaderContainer from './Containers/Header/HeaderContainer';
 import CollectionContainer from './Containers/Collection/CollectionContainer';
 import SearchContainer from './Containers/Search/SearchContainer';
 import InfoBarContainer from './Containers/InfoBar/InfoBarContainer';
+import FooterContainer from './Containers/Footer/FooterContainer';
 
 class App extends Component {
   constructor() {
@@ -21,7 +22,7 @@ class App extends Component {
       <div className="App">
         <HeaderContainer/>
         <SearchContainer addShow={this._addShowToCollection.bind(this)} collection={this.state.collection}/>
-        <h2>MY COLLECTION</h2>
+        <h2 className="heading-my-collection">MY COLLECTION</h2>
         <CollectionContainer
           collection={this.state.collection}
           showInfoBar={this._showInfoBar.bind(this)}
@@ -34,6 +35,7 @@ class App extends Component {
             removeShow={this._removeSelectedShowFromCollection.bind(this)}
             hideInfoBar={this._hideInfoBar.bind(this)}/>
           : null}
+        <FooterContainer collection={this.state.collection}/>
       </div>
     );
   }

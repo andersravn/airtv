@@ -7,13 +7,15 @@
 }
 
 .meta-info-title {
-    font-size: 2em;
     margin-bottom: 10px;
+    font-size: 2em;
+    line-height: 1em;
 }
 
 .trash-icon {
     width: 20px;
     height: 20px;
+    margin-left: 10px;
     display: inline;
     cursor: pointer;
 }

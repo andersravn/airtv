@@ -7,7 +7,7 @@ import './Logo.css';
 export default class Logo extends Component {
   render() {
     return (
-      <h1>AirTV</h1>
+      <h1 className="logo">AirTV</h1>
     );
   }
 }
